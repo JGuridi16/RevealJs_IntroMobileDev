@@ -1,0 +1,79 @@
+body {
+  user-drag: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+section {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: whitesmoke;
+  font-size: 32px;
+}
+section .title {
+  font-size: 50px;
+}
+.is-space-center {
+  display: flex;
+  justify-content: center;
+}
+.is-space-around {
+  display: flex;
+  justify-content: space-around;
+}
+.is-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+.bordered-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.bordered-bottom {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.is-gray {
+  background-color: rgba(128, 128, 128, 0.432);
+}
+.is-flex {
+  display: flex;
+}
+.aligned {
+  display: flex;
+  align-items: center;
+}
+.text-justified {
+  text-align: justify;
+}
+.font16 {
+  font-size: 16px;
+}
+.flex-card {
+  display: flex;
+  text-align: justify;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+.rounded {
+  border-radius: 5px;
+}
+.py-60 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.pad {
+  padding: 20px;
+}
+
+.inline {
+  display: inline;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
